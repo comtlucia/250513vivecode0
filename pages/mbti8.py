@@ -141,12 +141,8 @@ st.markdown("""
 
 st.markdown("---")
 
-# 📌 사용자 MBTI 선택
-#mbti_types = list(mbti_profiles.keys())
-#selected_mbti = st.selectbox("📍 당신의 MBTI를 선택하세요!", mbti_types)
-
-# 사용자 선택 안내 (크게)
-st.markdown("#### 📍 당신의 MBTI를 골라보세요:")
+# 📌 사용자 MBTI 선택(크게)
+st.markdown("#### 📍 당신의 MBTI를 선택하세요!")
 mbti_types = ["INTJ", "INFP", "ENTP", "ISFJ", "ENFP", "ISTP", "ESFJ", "INFJ"]
 selected_mbti = st.selectbox("", mbti_types)
 
