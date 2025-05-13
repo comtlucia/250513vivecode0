@@ -146,6 +146,7 @@ st.markdown("#### 📍 당신의 MBTI를 선택하세요!")
 mbti_types = ["INTJ", "INFP", "ENTP", "ISFJ", "ENFP", "ISTP", "ESFJ", "INFJ"]
 selected_mbti = st.selectbox("", mbti_types)
 
+st.markdown("---")
 
 # ✅ 선택한 MBTI에 따라 추천 결과 출력
 if selected_mbti:
