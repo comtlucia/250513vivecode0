@@ -134,8 +134,8 @@ mbti_profiles = {
 st.set_page_config(page_title="🌟 나를 닮은 직업 찾기", page_icon="🧭", layout="centered")
 
 st.markdown("""
-# ✨\"내 성향이 빛나는 미래 모습은?\"💎
-### MBTI로 알아보는 맞춤형 진로 제안서 💼  
+# ✨\"내 성향이 빛나는 미래 모습\"🌟
+### MBTI로 알아보는 맞춤형 진로 제안서 🎁  
 > 단순한 성격 유형 분석을 넘어서, **당신다운 진로**를 함께 상상해봐요!
 """)
 
