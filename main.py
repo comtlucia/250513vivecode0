@@ -60,7 +60,8 @@ mbti_data = {
 }
 
 # 🌟 사용자 선택
-selected_mbti = st.selectbox("📌 당신의 MBTI를 골라보세요!", mbti_types)
+st.markdown("#### 📍 당신의 MBTI를 골라보세요:")
+selected_mbti = st.selectbox(label="", options=list(mbti_profiles.keys()))
 
 # 🎁 결과 출력
 if selected_mbti:
